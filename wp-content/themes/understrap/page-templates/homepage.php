@@ -42,7 +42,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<h3><?php the_field('board_games'); ?></h3>
 						</div>
 					</div>
-				
+					<div class="row">
+						<div class="col-md">
+							<h3><?php the_field('television'); ?></h3>
+						</div>
+						<div class="col-md">
+							<h3><?php the_field('video_games'); ?></h3>
+						</div>
+						
+					</div>
 				
 				</main><!-- #main -->
 

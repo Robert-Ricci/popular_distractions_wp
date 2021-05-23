@@ -31,8 +31,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12 content-area" id="primary">
 
 				<main class="site-main" id="main" role="main">
-
-				test
+					<div class="row">
+						<div class="col-md">
+							<h3><?php the_field('comic_books'); ?></h3>
+						</div>
+						<div class="col-md">
+							<h3><?php the_field('movies'); ?></h3>
+						</div>
+						<div class="col-md">
+							<h3><?php the_field('board_games'); ?></h3>
+						</div>
+					</div>
+				
 				
 				</main><!-- #main -->
 

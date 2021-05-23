@@ -43,10 +43,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md">
+						<div class="col-md second-row">
 							<h3><?php the_field('television'); ?></h3>
 						</div>
-						<div class="col-md">
+						<div class="col-md-8">
 							<h3><?php the_field('video_games'); ?></h3>
 						</div>
 						

@@ -18,6 +18,9 @@ $container = get_theme_mod( 'understrap_container_type' );
   <?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 
+<div class="header">
+	<img src="<?php the_field('logo') ?>" /> 
+</div>
 
 <div class="wrapper" id="full-width-page-wrapper">
 
@@ -29,9 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<main class="site-main" id="main" role="main">
 
-				<h1><?php the_field('name'); ?></h1> 
-				<h4><?php the_field('email'); ?></h4> 
-				<p><?php the_field('bio'); ?></p> 
+				test
 				
 				</main><!-- #main -->
 
